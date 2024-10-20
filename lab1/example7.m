@@ -29,3 +29,5 @@ y(y>1)=1;
 y(y<0)=0;
 plot(x,y);
 ylim([0,1]);
+
+%Sensowne wartości c (0, +inf)

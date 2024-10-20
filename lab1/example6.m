@@ -29,3 +29,5 @@ y(y>1)=1;
 y(y<0)=0;
 plot(x,y);
 ylim([0,1]);                %zakres osi Y od 0 do 1
+
+%Sensowne wartości b (-1,1)
