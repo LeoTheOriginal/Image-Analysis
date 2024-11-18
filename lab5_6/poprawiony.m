@@ -227,4 +227,4 @@ uo=[ones(1,count-2), zeros(1,count2-2)];
 nn=feedforwardnet([10,10]);
 nn=train(nn,[ug,uj],uo);
 nn(M(1,:)');
-wynik = round(nn([tg,tj]))
+wynik = round(nn([tg,tj]));
